@@ -11,6 +11,7 @@ Url:		http://search.cpan.org/dist/%{modname}
 Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{modver}.tar.bz2
 BuildArch:	noarch
 BuildRequires:	perl(inc::Module::Install)
+BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel
 
 %description 
