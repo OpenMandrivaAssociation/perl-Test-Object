@@ -1,10 +1,10 @@
 %define modname	Test-Object
-%define modver	0.07
+%define modver	0.08
 
 Summary:	Thoroughly testing objects via registered handlers 
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	17
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
