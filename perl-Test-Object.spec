@@ -3,12 +3,12 @@
 
 Summary:	Thoroughly testing objects via registered handlers 
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	3
+Version:	%{modver}
+Release:	4
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{modver}.tar.gz
+Url:		https://github.com/karenetheridge/Test-Object
+Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Object-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(inc::Module::Install)
